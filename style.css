@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+div{
+    height: 60%;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(270deg, orange,rgba(253, 175, 30, 0.705));
+    border-radius: 5%;
+    padding: 2% 5%;
+    font-weight: 700;
+    color: white;
+    width: 50px;
+    position: relative;
+    /* margin-top: 10%; */
+}
+/* ================================================================= */
+.upperdiv{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    margin-bottom: 3%;
+}
+#name-highlight{
+    color: orange;
+}
+.upLeft{
+    margin-left: 6%;
+    width: 35%;
+    height: 50%;
+    /* display: inline-block; */
+    float: left;
+    /* border: 1px solid red; */
+}
+.upRight{
+    padding: 4% 1% 1% 3%;
+    display: inline-block;
+    width: 35%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+.upRight img{
+    width: 135%;
+    height: 110%;
+}
+
+/*=======================================================================*/
+.lowerdiv{
+    background-image: ("images/dream-bg.png");
+    /* background-position: right; */
+    /* border: 1px solid black; */
+    height: 100%;
+}
+.lowleft{
+    margin-left: 6%;
+    width: 43%;
+    height: 50%;
+    /* display: inline; */
+    float: left;
+    /* border: 1px solid black; */
+}
+.lowRight{
+    padding: 1% 1%;
+    float: left;
+    /* display: inline; */
+    /* border: 1px solid yellow; */
+    width: 40%;
+    height: 50%;
+}
+.lowleft img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+img.lastimg{
+    margin-top: 10%;
+    margin-right: 0;
+}
+/* =============================================================== */
+
+
+
+
