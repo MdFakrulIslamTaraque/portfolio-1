@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-weight: 700;
+}
 p{
     color: dimgray;
     text-align: justify;
@@ -59,6 +65,7 @@ a{
     /* background-position: right; */
     /* border: 1px solid black; */
     height: 100%;
+    margin-bottom: 7%;
 }
 .lowleft{
     margin-left: 6%;
@@ -87,6 +94,48 @@ img.lastimg{
 }
 /* =============================================================== */
 
+.experience{
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    /* background-image: url("images/exp-bg.png"); */
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 0;
+    padding-left: 0;
+    height: 50%;
+}
+.exp h3{
+    color:orange;
+}
 
+.leftex{
+    margin-left: 8%;
+    width: 40%;
+    /* display: inline-block; */
+    float: left;
+    border-left: 5px solid tomato;
+    border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+.rightex{
+    margin-left: 6%;
+    width: 40%;
+    /* display: inline-block; */
+    float: left;
+    border-left: 5px solid blue;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+    /* box-shadow: rgba(75, 74, 73, 0.705); */
+}
 
-
+.exp{
+    box-shadow: 2px 2px 40px gray;
+    border-radius: 2%;
+    height: 300px;
+    margin-bottom: 5%;
+    background-color: #fff;
+}
+.footer{
+    text-align: center;
+    padding: 5%;
+}
